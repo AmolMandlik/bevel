@@ -11,7 +11,7 @@
 FROM ubuntu:20.04
 
 # Create working directory
-WORKDIR /home/
+WORKDIR /home/dev/
 ENV OPENSHIFT_VERSION='0.13.1'
 
 RUN apt-get update -y && \
