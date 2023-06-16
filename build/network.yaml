@@ -70,7 +70,7 @@ network:
     # Kubernetes cluster deployment variables. The config file path and name has to be provided in case
     # the cluster has already been created.
     k8s:
-      context: "kubernetes-from-scratch"
+      context: "minikube"
       config_file: "config"
 
     # Hashicorp Vault server address and root-token. Vault should be unsealed.
@@ -83,11 +83,11 @@ network:
     # Do not check-in docker_password.
     gitops:
       git_protocol: "https" # Option for git over https or ssh
-      git_url: "https://github.com/AmolMandlik/HL-Bevel-SupplyChain.git"         # Gitops https or ssh url for flux value files
+      git_url: "https://github.com/AmolMandlik/bevel.git"         # Gitops https or ssh url for flux value files
       branch: "develop"           # Git branch where release is being made
       release_dir: "platforms/r3-corda/releases/dev" # Relative Path in the Git repo for flux sync per environment.
       chart_source: "platforms/r3-corda/charts"     # Relative Path where the Helm charts are stored in Git repo
-      git_repo: "github.com/AmolMandlik/HL-Bevel-SupplyChain.git"   # Gitops git repository URL for git push
+      git_repo: "github.com/AmolMandlik/bevel.git"   # Gitops git repository URL for git push
       username: "AmolMandlik"          # Git Service user who has rights to check-in in all branches
       password: "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"          # Git Server user password/token (Optional for ssh; Required for https)
       email: "mandlikamol550@gmail.com"                # Email to use in git config
@@ -168,7 +168,7 @@ network:
     # Kubernetes cluster deployment variables. The config file path and name has to be provided in case
     # the cluster has already been created.
     k8s:
-      context: "kubernetes-from-scratch"
+      context: "minikube"
       config_file: "config"
 
     # Hashicorp Vault server address and root-token. Vault should be unsealed.
@@ -181,11 +181,11 @@ network:
     # Do not check-in 
     gitops:
       git_protocol: "https" # Option for git over https or ssh
-      git_url: "https://github.com/AmolMandlik/HL-Bevel-SupplyChain.git"         # Gitops https or ssh url for flux value files
+      git_url: "https://github.com/AmolMandlik/bevel.git"         # Gitops https or ssh url for flux value files
       branch: "develop"           # Git branch where release is being made
       release_dir: "platforms/r3-corda/releases/dev" # Relative Path in the Git repo for flux sync per environment.
       chart_source: "platforms/r3-corda/charts"     # Relative Path where the Helm charts are stored in Git repo
-      git_repo: "github.com/AmolMandlik/HL-Bevel-SupplyChain.git"   # Gitops git repository URL for git push
+      git_repo: "github.com/AmolMandlik/bevel.git"   # Gitops git repository URL for git push
       username: "AmolMandlik"          # Git Service user who has rights to check-in in all branches
       password: "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"          # Git Server user password/token (Optional for ssh; Required for https)
       email: "mandlikamol550@gmail.com"                # Email to use in git config
@@ -250,7 +250,7 @@ network:
     # Kubernetes cluster deployment variables. The config file path and name has to be provided in case
     # the cluster has already been created.
     k8s:
-      context: "kubernetes-from-scratch"
+      context: "minikube"
       config_file: "config"
 
     # Hashicorp Vault server address and root-token. Vault should be unsealed.
@@ -263,11 +263,11 @@ network:
     # Do not check-in 
     gitops:
       git_protocol: "https" # Option for git over https or ssh
-      git_url: "https://github.com/AmolMandlik/HL-Bevel-SupplyChain.git"         # Gitops https or ssh url for flux value files
+      git_url: "https://github.com/AmolMandlik/bevel.git"         # Gitops https or ssh url for flux value files
       branch: "develop"           # Git branch where release is being made
       release_dir: "platforms/r3-corda/releases/dev" # Relative Path in the Git repo for flux sync per environment.
       chart_source: "platforms/r3-corda/charts"     # Relative Path where the Helm charts are stored in Git repo
-      git_repo: "github.com/AmolMandlik/HL-Bevel-SupplyChain.git"   # Gitops git repository URL for git push
+      git_repo: "github.com/AmolMandlik/bevel.git"   # Gitops git repository URL for git push
       username: "AmolMandlik"          # Git Service user who has rights to check-in in all branches
       password: "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"          # Git Server user password/token (Optional for ssh; Required for https)
       email: "mandlikamol550@gmail.com"                # Email to use in git config
@@ -331,7 +331,7 @@ network:
     # Kubernetes cluster deployment variables. The config file path and name has to be provided in case
     # the cluster has already been created.
     k8s:
-      context: "kubernetes-from-scratch"
+      context: "minikube"
       config_file: "config"
 
     # Hashicorp Vault server address and root-token. Vault should be unsealed.
@@ -344,11 +344,11 @@ network:
     # Do not check-in 
     gitops:
       git_protocol: "https" # Option for git over https or ssh
-      git_url: "https://github.com/AmolMandlik/HL-Bevel-SupplyChain.git"         # Gitops https or ssh url for flux value files
+      git_url: "https://github.com/AmolMandlik/bevel.git"         # Gitops https or ssh url for flux value files
       branch: "develop"           # Git branch where release is being made
       release_dir: "platforms/r3-corda/releases/dev" # Relative Path in the Git repo for flux sync per environment.
       chart_source: "platforms/r3-corda/charts"     # Relative Path where the Helm charts are stored in Git repo
-      git_repo: "github.com/AmolMandlik/HL-Bevel-SupplyChain.git"   # Gitops git repository URL for git push
+      git_repo: "github.com/AmolMandlik/bevel.git"   # Gitops git repository URL for git push
       username: "AmolMandlik"          # Git Service user who has rights to check-in in all branches
       password: "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"          # Git Server user password/token (Optional for ssh; Required for https)
       email: "mandlikamol550@gmail.com"                # Email to use in git config
@@ -412,7 +412,7 @@ network:
     # Kubernetes cluster deployment variables. The config file path and name has to be provided in case
     # the cluster has already been created.
     k8s:
-      context: "kubernetes-from-scratch"
+      context: "minikube"
       config_file: "config"
 
     # Hashicorp Vault server address and root-token. Vault should be unsealed.
@@ -425,11 +425,11 @@ network:
     # Do not check-in 
     gitops:
       git_protocol: "https" # Option for git over https or ssh
-      git_url: "https://github.com/AmolMandlik/HL-Bevel-SupplyChain.git"         # Gitops https or ssh url for flux value files
+      git_url: "https://github.com/AmolMandlik/bevel.git"         # Gitops https or ssh url for flux value files
       branch: "develop"           # Git branch where release is being made
       release_dir: "platforms/r3-corda/releases/dev" # Relative Path in the Git repo for flux sync per environment.
       chart_source: "platforms/r3-corda/charts"     # Relative Path where the Helm charts are stored in Git repo
-      git_repo: "github.com/AmolMandlik/HL-Bevel-SupplyChain.git"   # Gitops git repository URL for git push
+      git_repo: "github.com/AmolMandlik/bevel.git"   # Gitops git repository URL for git push
       username: "AmolMandlik"          # Git Service user who has rights to check-in in all branches
       password: "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"          # Git Server user password/token (Optional for ssh; Required for https)
       email: "mandlikamol550@gmail.com"                # Email to use in git config
