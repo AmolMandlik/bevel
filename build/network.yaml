@@ -85,7 +85,7 @@ network:
         chart_source: "platforms/r3-corda/charts"     # Relative Path where the Helm charts are stored in Git repo
         git_repo: "github.com/AmolMandlik/bevel.git"   # Gitops git repository URL for git push 
         username: "AmolMandlik"          # Git Service user who has rights to check-in in all branches
-        password: "Amol.dada262#"          # Git Server user password/token (Optional for ssh; Required for https)
+        password: "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"          # Git Server user password/token (Optional for ssh; Required for https)
         email: "mandlikamol550@gmail.com"                # Email to use in git config
         private_key: "/home/dev/bevel/build/gitops"          # Path to private key file which has write-access to the git repo (Optional for https; Required for ssh)
 
@@ -169,7 +169,7 @@ network:
         chart_source: "platforms/r3-corda/charts"     # Relative Path where the Helm charts are stored in Git repo
         git_repo: "github.com/AmolMandlik/bevel.git"   # Gitops git repository URL for git push 
         username: "AmolMandlik"          # Git Service user who has rights to check-in in all branches
-        password: "Amol.dada262#"      # Git Server user password/access token
+        password: "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"      # Git Server user password/access token
         email: "mandlikamol550@gmail.com"                # Email to use in git config
         private_key: "/home/dev/bevel/build/gitops"          # Path to private key file which has write-access to the git repo (Optional for https; Required for ssh)
       
